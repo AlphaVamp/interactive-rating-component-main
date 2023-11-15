@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Pages](https://alphavamp.github.io/product-preview-card-component-main/)
+- Live Site URL: [Github Pages](https://alphavamp.github.io/interactive-rating-component-main/)
 
 ### Built with
 
