@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --secondary: hsl(213deg, 20%, 22%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-Dark-Blue) ;
+}
+
+
+.container{
+    background-color: var(--Dark-Blue);
+    border-radius: 1rem;
+    width: 350px;
+    padding: 2rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.title{
+    color: var(--White);
+    margin-bottom: 0.7rem;
+}
+
+.desc{
+    color: var(--Light-Grey);
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Light-Grey);
+    margin-bottom: 1rem;
+}
+
+.ratings span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: var(--secondary);
+    border-radius: 50%;
+}
+
+.ratings span:hover{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.submit-btn{
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    color: var(--White);
+    background-color: var(--Orange);
+    cursor: pointer;
+}
+
+.submit-btn:active{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+.thanks{
+    text-align: center;
+}
+
+
+
+.given-rating{
+    background-color: var(--secondary);
+    color: var(--Orange);
+    margin: 1rem auto;
+    padding: 0.7rem;
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 2rem;
+}
+
+.checked{
+    background-color: var(--Orange) !important;
+    color: var(--White) !important;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
